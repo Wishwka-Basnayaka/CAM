@@ -12,11 +12,9 @@ import {
   MenuItem,
   Button,
   Chip,
-  Avatar,
   Paper,
   InputAdornment,
-  Pagination,
-  Fab
+  Pagination
 } from '@mui/material';
 import {
   Search as SearchIcon,
@@ -351,7 +349,7 @@ const UserDashboard = () => {
 
       {/* Quick Access Section */}
       <Typography variant="h6" gutterBottom sx={{ mt: 3, mb: 2, color: '#666' }}>
-        📅 Quick Access
+        Quick Access
       </Typography>
       <Paper sx={{ p: 3, mb: 4, boxShadow: 2 }}>
         <Grid container spacing={3}>
